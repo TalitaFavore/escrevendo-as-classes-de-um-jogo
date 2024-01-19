@@ -26,14 +26,6 @@ class Heroi {
 
         console.log(`${this.tipo} ${this.nome} de ${this.idade} anos de idade atacou usando ${ataque}`);
     }
-
-    exibirInformacoes() {
-        console.log(`Nome: `);
-        console.log(`Idade: `);
-        console.log(`Tipo: ${this.tipo}`);
-
-        console.log("------------");
-    }
 }
 
 let heroi = new Heroi("Talita", 19, "Ninja");
